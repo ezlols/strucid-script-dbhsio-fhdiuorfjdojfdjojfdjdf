@@ -33,8 +33,8 @@ game:GetService("RunService").Heartbeat:connect(function(step)if flying and c an
   local Workspace=game:GetService("Workspace");
   local CurrentCam=Workspace.CurrentCamera;
   local require=require;
-  local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/Vape.txt"))()
-  local win = lib:Window("CoreServices | Strucid | V2 | https://discord.gg/DmFj4XcxNn ", Color3.fromRGB(44, 120, 224), Enum.KeyCode.P)
+  local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ezlols/strucid-script-dbhsio-fhdiuorfjdojfdjojfdjdf/refs/heads/main/Main"))()
+  local win = lib:Window("CoreServices | Strucid | V2 | discord.gg/DmFj4XcxNn ", Color3.fromRGB(44, 120, 224), Enum.KeyCode.P)
   
   -- Hitbox settings
   local hitboxEnabled = false
